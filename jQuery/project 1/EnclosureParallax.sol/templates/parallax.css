@@ -1,0 +1,26 @@
+.layer {
+	display: block;
+	width: 800px; /* 886px; */
+	height: 400px; /* 446px; */
+	position: relative;
+	background-position: -43px -23px;
+}
+
+body>.layer {
+	background-image: url(../images/tvp_poster_00.png);
+	background-repeat: no-repeat;
+	background-color:  #000;
+
+	left: 50%;
+	margin-left: -443px;
+}
+
+body>.layer>.layer {
+	background-image: url(../images/tvp_poster_01.png);
+	background-repeat: no-repeat;
+}
+
+body>.layer>.layer>.layer {
+	background-image: url(../images/tvp_poster_02.png);
+	background-repeat: no-repeat;
+}

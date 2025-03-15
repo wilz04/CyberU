@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Parallax</title>
+		<script src="lib/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" language="javascript">
+			// The plugin code
+			(function ($) {
+				$.fn.parallax = function (options) {
+					var $$ = $(this);
+					offset = $$.offset();
+					var defaults = {
+						"start": 0,
+						// "stop": this.offsetTop + $$.height(),
+						"stop": offset.top + $$.height(),
+						"coeff": 0.95
+					};
+					var opts = $.extend(defaults, options);
+					return this.each(function () {
+						$(window).bind("scroll", function () {
+							windowTop = $(window).scrollTop();
+							if ((windowTop >= opts.start) && (windowTop <= opts.stop)) {
+								newCoord = windowTop * opts.coeff;
+								$$.css({
+									"background-position": "0 "+ newCoord + "px"
+								});
+							}
+						});
+					});
+				};
+			})(jQuery);
+
+			$(document).ready(function () {
+				// call the plugin
+				$(".section").parallax({ "coeff": -0.65 });
+				$(".section .inner").parallax({ "coeff": 1.15 });
+			});
+		</script>
+		<style type="text/css">
+			.section {
+				width: 540px;
+				height: 500px;
+				background: url(http://www.franckmaurin.com/wp-content/uploads/2011/01/bg_freext.jpg) no-repeat #000;
+			}
+			
+			.section .inner {
+				width: 540px;
+				height: 500px;
+				background: url(http://www.franckmaurin.com/wp-content/uploads/2011/01/fg_freext.png) no-repeat;
+			}
+			
+			.more {
+				width: 540px;
+				height: 1000px;
+			}
+		</style>
+	</head>
+	<body onload="">
+		<div class="section">
+			<div class="inner">
+				<!-- your content here -->
+			</div>
+		</div>
+		<div class="more">
+		</div>
+	</body>
+</html>

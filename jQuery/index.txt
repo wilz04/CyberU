@@ -1,0 +1,16 @@
+Temario del curso
+ Librería de funciones de JQuery.
+ Encadenamiento de sentencias.
+ Efecto de desvanecimiento para elementos de HTML.
+ Efecto de barrido para elementos de HTML.
+ El objeto Event.
+Trabajo con documentos XML
+ Uso de XML para mantenimiento de contenido.
+ Aplicaciones de XML para elementos comunes de un Website.
+Interfaces graficas con JQuery UI
+ Utilización de la librería JQuery UI para generar interfaces visuales.
+ Elementos interactivos.
+ Sistema de Widgets.
+ Ventanas de dialogo, botones, barras de progreso y deslizadores.
+ Estructuras acordeón, pestañas de contenido.
+ Modificación de la apariencia visual de elementos de la interfaz.

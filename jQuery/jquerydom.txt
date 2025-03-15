@@ -1,0 +1,28 @@
+Document
+
+createElement -> $.create
+getElementById -> $
+getElementsByTagName -> $
+----
+Element
+
+tagName -> attr("tag")
+
+getAttribute -> attr
+getElementsByTagName -> $
+hasAttribute -> hasAttr
+removeAttribute -> removeAttr
+setAttribute -> attr
+----
+Node
+
+childNodes -> children
+firstChild -> first
+lastChild -> last
+nextSibling -> next
+parentNode -> parent
+previousSibling -> prev
+
+appendChild -> append
+cloneNode -> clone
+removeChild -> remove

@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Wil C</Author>
+  <LastAuthor>Wil C</LastAuthor>
+  <Created>2013-08-26T17:51:18Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>45</Index>
+    <RGB>#EB613D</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>298</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#EB613D" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="9" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="120">
+   <Column ss:AutoFitWidth="0" ss:Width="120" ss:Span="5"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Platillo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Energ&#xed;a (kcal)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Grasa (kcal)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Carbohidratos (g)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Prote&#xed;nas (g)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Grasas Totales (g)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Grasas Saturadas (g)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Grasas Trans (g)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fibra (g)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sodio (mg)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Costo (c)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ingestas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Huevos con jam&#xf3;n</Data></Cell>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">339</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Huevos revueltos</Data></Cell>
+    <Cell><Data ss:Type="Number">139</Data></Cell>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Huevos con jam&#xf3;n</Data></Cell>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">339</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pan Muffin</Data></Cell>
+    <Cell><Data ss:Type="Number">166</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">314</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sumatoria</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=SUMPRODUCT(R[-4]C:R[-1]C,R2C12:R5C12)"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Niveles M&#xed;nimos</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2400</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Costo Total</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s66"
+     ss:Formula="=SUMPRODUCT(R[-7]C:R[-4]C*R[-7]C[1]:R[-4]C[1])"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0.75" x:Data="&amp;C&amp;&quot;Arial,Regular&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.75" x:Data="&amp;C&amp;&quot;Arial,Regular&quot;&amp;12Page &amp;P"/>
+    <PageMargins x:Bottom="1" x:Left="0.75" x:Right="0.75" x:Top="1"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>10</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

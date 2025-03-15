@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="lib/jquery-2.0.3.min.js"></script>
+		<script src="classes/IndexHandler.class.js"></script>
+	</head>
+	<body onload="IndexHandler.init();">
+		<form id="fEnter" action="go.html" target="_self" method="POST">
+			<div>
+				<input type="text" size="32" placeholder="e-Mail" />
+			</div>
+			<div>
+				<input type="text" size="32" placeholder="Password" />
+			</div>
+			<div>
+				<input id="btEnter" type="submit" value="Entrar" />
+			</div>
+		</form>
+		
+		<table id="list"></table>
+	</body>
+</html>

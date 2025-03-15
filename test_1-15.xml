@@ -1,0 +1,150 @@
+<?xml version="1.0" charset="UTF-8" ?>
+<html>
+	<!-- 4:56 -->
+	<head>
+		Welcome,
+
+		This test consists of 61 items.
+		You must have a score of 64% or above to pass.
+		You have a total of 100 minutes to completethe NDA, Survey, and Exam.
+	</head>
+	<select id="1" multiple="false">
+		<label>Which kind of ColdFusion data can be serialized into the JSON format with the serializaJSON() function?</label>
+		<option id="A">only query objects</option>
+		<option id="B">any data object</option>
+		<option id="C">only CFC instances</option>
+		<option id="D">query objects and arrays</option>
+	</select>
+	<select id="2" multiple="false">
+		<span>The following CFM page named input.cfm receives a URL variable and returns its value in upper case.</span>
+		<script>
+			<h3>Echoing input:</h3>
+			<cfoutput>
+				<cfif isdefined("url.InputText")>
+					#uCase(url.InputText)#
+				<cfelse>
+					No input
+				</cfif>
+			</cfoutput>
+		</script>
+		<label>Which cfdiv tag uses the correct binding expression to pass the value of a cfinput control named myInput and display the value returned from the first page?</label>
+		<option id="A"><cfdiv bind="url:output.cfm?InputText=#myInput.value#" /></option>
+		<option id="B"><cfdiv bind="output.cfm?InputText={myInput.value}" /></option>
+		<option id="C"><cfdiv bind="url:output.cfm?InputText={myInput.value}" /></option>
+		<option id="D"><cfdiv bind="{url:output.cfm?InputText=#myInput.value#}" /></option>
+	</select>
+	<select id="3" multiple="false">
+		<span>You are using cfajaxproxy to retrieve data asynchronously from a CFC function on the server.</span>
+		<label>Which data format is used to send back the data response?</label>
+		<option id="A">plain text</option>
+		<option id="B">AMF</option>
+		<option id="C">JSON</option>
+		<option id="D">XML</option>
+	</select>
+	<select id="4" multiple="false">
+		<label>What is the correct value of the cffunction tag's access attribute for CFC functions that you want to expose over the Web using SOAP or Flash Remoting?</label>
+		<option id="A">http</option>
+		<option id="B">webservice</option>
+		<option id="C">remote</option>
+		<option id="D">public</option>
+	</select>
+	<select id="5" multiple="false">
+		<span>You have created a ColdFusion component in your application. Inside that component you need to create a property called user that CANNOT be seen outside the component.</span>
+		<label>Which definition creates a user variable that CANNOT be accessed outside the component?</label>
+		<option id="A">this.user "joe"</option>
+		<option id="B">var user = "joe"</option>
+		<option id="C">variables.user = "joe"</option>
+		<option id="D">properties.user = "joe"</option>
+	</select>
+	<select id="6" multiple="false">
+		<span>A CFC file named MyComponent.cfc is stored in the cfc subfolder of the web server's document root folder.</span>
+		<label>Which cfscript statement correctly creates an instance of the CFC?</label>
+		<option id="A">comp = new cfc.MyComponent;</option>
+		<option id="B">comp = new cfc.MyComponent();</option>
+		<option id="C">comp = cfc.MyComponent();</option>
+		<option id="D">comp = createObject("cfc.MyComponent");</option>
+	</select>
+	<select id="7" multiple="true">
+		<label>In which situations will ColdFusion validate data types defined by the cfproperty tag? (Choose two)</label>
+		<option id="A">calls to CFC functions from a CFM page</option>
+		<option id="B">calls to CFC functions from SOAP-based web service clients</option>
+		<option id="C">calls to CFC functions from another CFC function</option>
+		<option id="D">when CFC documentation has been generated</option>
+		<option id="E">calls to CFC functions from a Flex or Flash-based client over Flash Remoting</option>
+	</select>
+	<select id="8" multiple="false">
+		<span>Given the following code:</span>
+		<script>
+			<cfcomponent>
+				
+				<cfset x=1 />
+				<cfset y=2 />
+				
+				<cffunction name="f1" access="remote">
+					<cfset var x=5 />
+					<cfset y=3 />
+					
+					<cfreturn x+y />
+				</cffunction>
+			</cfcomponent>
+		</script>
+		<label>Which value is returned from function f1?</label>
+		<option id="A">3</option>
+		<option id="B">4</option>
+		<option id="C">7</option>
+		<option id="D">8</option>
+	</select>
+	<select id="9" multiple="false">
+		<span>You want to create a ColdFusion component that contains mathematics methods, and can be accessed directly by a form post. You Web root directory is C:\coldfucion9\wwwroot</span>
+		<label>Which filename should you use?</label>
+		<option id="A">C:\coldfucion9\customtags\math.cfc</option>
+		<option id="B">C:\math.cfm</option>
+		<option id="C">C:\coldfucion9\wwwroot\math.cfm</option>
+		<option id="D">C:\coldfucion9\wwwroot\math.cfc</option>
+	</select>
+	<select id="10" multiple="false">
+		<label>Which attribute is used in a component definition to create an inheritance relationship with a super or base component?</label>
+		<option id="A">extends</option>
+		<option id="B">inherits</option>
+		<option id="C">derives</option>
+		<option id="D">sub</option>
+	</select>
+	<select id="11" multiple="true">
+		<label>What are two valid locations in which to place a CFC file on the server disk so its functions can be called from CFM pages in a ColdFusion application? (Choose two)</label>
+		<option id="A">within mapped directories</option>
+		<option id="B">within a folder named cfc under the WEB-INF folder</option>
+		<option id="C">within custom tag paths</option>
+		<option id="D">within a folder named cfc under the ColdFusion instalation folder</option>
+		<option id="E">within the web server's document root folder structure</option>
+	</select>
+	<select id="12" multiple="false">
+		<span>You application utilizes ColdFusion components organized into folders. The User.cfc file is stored in the vo folder inside the app directory of your webroot.</span>
+		<label>Which tag instantiates the User.cfc and stores it in the myuser variable?</label>
+		<option id="A"><cfset myuser=createObject('app.vo.User') /></option>
+		<option id="B"><cfset myuser=createObject('component', 'app.vo.User') /></option>
+		<option id="C"><cfset myuser=createObject('component', "app/vo/User") /></option>
+		<option id="D"><cfset myuser=createObject('component', "User") /></option>
+	</select>
+	<select id="13" multiple="false">
+		<label>What is the correct prefix for addressing files stored in server memory?</label>
+		<option id="A">inmemory://</option>
+		<option id="B">ram://</option>
+		<option id="C">memory://</option>
+		<option id="D">fileinram://</option>
+	</select>
+	<select id="14" multiple="false">
+		<span>A file name data.txt is stored in the same directory as the currently executing CFM page.</span>
+		<label>What is the correct sintax to read the contents of the file into a variable named content?</label>
+		<option id="A"><cffile action="read" file="data.txt" variable="content" /></option>
+		<option id="B"><cffile action="read" file="/appFolder/data.txt" variable="content" /></option>
+		<option id="C"><cffile action="read" file="#expandPath('data.txt')#" variable="content" /></option>
+		<option id="D"><cffile action="read" file="#expandPath(data.txt)#" variable="content" /></option>
+	</select>
+	<select id="15" multiple="false">
+		<label>What is the correct sintax for creating a new directory named subfolder under the directory containing the currently executing code?</label>
+		<option id="A"><cfdirectory action="new" directory="#expandPath('subfolder')#" /></option>
+		<option id="B"><cfdirectory action="create" directory="#expandPath('subfolder')#" /></option>
+		<option id="C"><cfdirectory action="new" directory="subfolder" /></option>
+		<option id="D"><cfdirectory action="create" directory="subfolder" /></option>
+	</select>
+</html>
